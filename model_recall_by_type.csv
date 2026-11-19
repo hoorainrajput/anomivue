@@ -1,0 +1,9 @@
+model,bot_burst,engagement_crash,viral_spike
+ZScore (raw),1.0,0.02,0.97
+IsolationForest (raw),0.96,0.11,0.79
+LOF (raw),1.0,0.2,0.97
+IsolationForest (log),1.0,1.0,0.22
+LOF (log),1.0,1.0,0.97
+OneClassSVM (log),1.0,1.0,0.97
+Ensemble IF+LOF+SVM (log),1.0,1.0,0.93
+LOF (log + time),1.0,0.95,0.97

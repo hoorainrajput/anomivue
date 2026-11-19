@@ -1,0 +1,25 @@
+model,contamination,type,recall
+IsolationForest,0.01,bot_burst,0.019
+IsolationForest,0.01,engagement_crash,0.004
+IsolationForest,0.01,viral_spike,0.237
+IsolationForest,0.02,bot_burst,0.264
+IsolationForest,0.02,engagement_crash,0.011
+IsolationForest,0.02,viral_spike,0.619
+IsolationForest,0.05,bot_burst,0.992
+IsolationForest,0.05,engagement_crash,0.143
+IsolationForest,0.05,viral_spike,0.781
+IsolationForest,0.1,bot_burst,1.0
+IsolationForest,0.1,engagement_crash,0.155
+IsolationForest,0.1,viral_spike,0.915
+ZScore baseline,0.01,bot_burst,1.0
+ZScore baseline,0.01,engagement_crash,0.0
+ZScore baseline,0.01,viral_spike,0.878
+ZScore baseline,0.02,bot_burst,1.0
+ZScore baseline,0.02,engagement_crash,0.008
+ZScore baseline,0.02,viral_spike,0.926
+ZScore baseline,0.05,bot_burst,1.0
+ZScore baseline,0.05,engagement_crash,0.008
+ZScore baseline,0.05,viral_spike,0.948
+ZScore baseline,0.1,bot_burst,1.0
+ZScore baseline,0.1,engagement_crash,0.008
+ZScore baseline,0.1,viral_spike,0.948

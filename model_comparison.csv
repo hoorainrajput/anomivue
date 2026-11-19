@@ -1,0 +1,9 @@
+model,pr_auc,best_f1,precision,recall,false_alarm_rate,pr_auc_std
+ZScore (raw),0.702,0.718,0.398,0.662,0.053,0.013
+IsolationForest (raw),0.355,0.501,0.375,0.62,0.054,0.022
+LOF (raw),0.782,0.793,0.386,0.728,0.061,0.009
+IsolationForest (log),0.544,0.595,0.4,0.738,0.058,0.023
+LOF (log),0.972,0.928,0.492,0.99,0.054,0.004
+OneClassSVM (log),0.929,0.866,0.479,0.991,0.057,0.007
+Ensemble IF+LOF+SVM (log),0.797,0.737,0.485,0.975,0.055,0.016
+LOF (log + time),0.938,0.861,0.551,0.974,0.042,0.009
